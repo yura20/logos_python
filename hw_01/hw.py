@@ -8,4 +8,6 @@ name = name[0].upper()+name[1:].lower()
 surname = surname[0].upper()+surname[1:].lower()
 university = university.upper()
 
-print("I am {name} {surname}, I am studying at the {university} with {group_name}, my average mark is {mark}.".format(name = name, surname = surname, university = university, group_name = group_name, mark = mark))
+text = "I am {name} {surname}, I am studying at the {university} with {group_name}, my average mark is {mark}.".format(name = name, surname = surname, university = university, group_name = group_name, mark = mark)
+
+print(text)
