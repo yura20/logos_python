@@ -3,7 +3,6 @@ arr =[]
 text = text.lower()
 text = text.replace(' ', '')
 print(text)
-#print(ord(" "))
 for i in text:
     z = bin(ord(i)-97)
     z = str(z[2:])
