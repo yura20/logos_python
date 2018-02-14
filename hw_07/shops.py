@@ -8,7 +8,7 @@ class Stuff:
         self.price = price
         self.availability = availability
         for key in kwargs:
-            self.key = kwargs[key]
+            setattr(self, key, kwargs[key])
 class Manager:
     name = None
     surname = None
